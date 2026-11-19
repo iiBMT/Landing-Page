@@ -70,8 +70,8 @@ a {
     margin-bottom: 10px;
 }
 
-button {
-    display: flex;
+.button {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
@@ -81,10 +81,10 @@ button {
     padding: 8px 32px;
     border-radius: 8px;
     font-family: inherit;
-    cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover, a:hover { 
+.button:hover, a:hover { 
     filter: brightness(1.1); 
 }
 
