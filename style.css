@@ -88,10 +88,6 @@ a {
     filter: brightness(1.1); 
 }
 
-.first {
-    border: none;
-}
-
 .homebanner {
     display: flex;
     justify-content: center;
