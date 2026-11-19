@@ -1,11 +1,11 @@
 
 body{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    min-height: 100vh
 }
 
 .header-container, 
@@ -32,7 +32,6 @@ body{
 
 .links {
     display: flex;
-    justify-content: flex-end;
     font-size: 18px;
     gap: 16px;
 }
@@ -45,7 +44,6 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .main {
@@ -77,9 +75,10 @@ button {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 900;
-    background-color: #3b82f6;
+    background-color: #3876f2;
     padding: 8px 32px;
     border-radius: 8px;
+    font-family: inherit;
 }
 
 .first {
@@ -123,7 +122,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 32px 92px;
+    padding: 32px 32px;
     gap: 8px;
 }
 
@@ -133,12 +132,13 @@ button {
     align-items: center;
     text-align: center;
     font-size: 16px;
-    flex: 1 1 144px;
 }
 
 
 .cards img {
-    border: 4px solid #3b82f6;
+    width: 144px;
+    height: 144px;
+    border: 4px solid #3876f2;
     border-radius: 16px;
 }
 
@@ -187,8 +187,8 @@ button {
     flex: 1;
     align-items: center;
     justify-content: space-between;
-    background-color: #3b82f6;
-    border:1px solid #3b82f6;
+    background-color: #3876f2;
+    border:1px solid #3876f2;
     border-radius: 8px;
     padding:  48px 128px;
 }
