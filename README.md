@@ -13,7 +13,7 @@ A satirical landing page for a fictional insurance company, built as part of
 
 - HTML
 - CSS (Flexbox)
-- Google Fonts — Roboto
+- Google Fonts , Roboto
 
 
 ## Credits

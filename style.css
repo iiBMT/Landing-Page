@@ -39,6 +39,7 @@ body{
 a {
     text-decoration: none;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 .content {
@@ -80,6 +81,11 @@ button {
     padding: 8px 32px;
     border-radius: 8px;
     font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover, a:hover { 
+    filter: brightness(1.1); 
 }
 
 .first {
